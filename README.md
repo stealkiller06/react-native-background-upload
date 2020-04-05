@@ -27,8 +27,10 @@ Note: if you are installing on React Native < 0.47, use `react-native-background
 `cd ./ios && pod install && cd ../`
 
 ##### Android
+Add this line in your AndroidManifest.xml:
 
-No further actions required.
+`<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />`
+
 
 ### Automatic Native Library Linking (React Native < 0.60)
 
